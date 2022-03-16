@@ -4,14 +4,14 @@
 
 ## Table of Contents
 * [About](#About)
-* [Technologies Used](#technologies-used)
-* [Data analysis](#dataanalysis)
-* [Univariate](#univariate)
-* [Bivariate](#bivariate)
-* [Encoding](#encoding)
-* [Normalisation](#normalisation)
-* [Modelling and prediction](#model)
-* [Residual analysis and Feature analysis](#Feature analysis)
+* [Technologies Used](#Technologies-used)
+* [Data analysis](#Dataanalysis)
+* [Univariate](#Univariate)
+* [Bivariate](#Bivariate)
+* [Encoding](#Encoding)
+* [Normalisation](#Normalisation)
+* [Modelling and prediction](#Model)
+* [Residual analysis and Feature analysis](#Featureanalysis)
 * [Contact](#Contact)
 
 
@@ -25,7 +25,7 @@ They have contracted a consulting company to understand the factors on which the
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## technologies-used
+## Technologies-used
 - Python
 - Numpy
 - Matplotlib
@@ -37,36 +37,36 @@ They have contracted a consulting company to understand the factors on which the
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## dataanalysis
+## Dataanalysis
 - Well preformed data analysis in given data set with almost 16 different columns
 - got informtaion regading categorical and numerical columns
 - checked with null values
 - checked with dropping not use ful columns
 - 
 
-## univariate
+## Univariate
 - in univariate analysis checked with the analysis of the cnt with different types
 - of data with categorical and numerical data by plotting grapsh using seaborn
 
 
-## bivariate
+## Bivariate
 - in bivariate analysis checked with the analysis heat may tried to find the correlation of different 
 - variables
 
 
-## encoding
+## Encoding
 -  directly went with one hot encording as there was less number of categorical variables
 - tried to used drop = true feature on also to reduce the eccoding variable in each category
 
-## normalisation
+## Normalisation
 -tried to convert the whole data on normalised format so that every point in our data should have 
 value between 0 am 1 
-## model
+## Model
 -tried to implemet the multile linear regesssion model with inital step of addign constant and 
 procceding forward rteid to incease model accuracy by hit an trial method many time in first  time
 than predicting the model using R2 score on both test and train
 
-## Feature analysis
+## Featureanalysis
 -once done with hit and trial method tried to use Recursive feature analysis which give me the top 10 best 
 feature and also checked with the VIF values than than tried to fidn the Residual analysis
 using test and train data
